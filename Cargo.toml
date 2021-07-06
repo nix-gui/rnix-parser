@@ -19,3 +19,6 @@ smol_str = "0.1.17"
 
 [dev-dependencies]
 criterion = "0.3.0"
+
+[features]
+serde1 = ["rowan/serde1"]
